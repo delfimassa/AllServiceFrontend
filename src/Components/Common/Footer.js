@@ -16,7 +16,7 @@ import Nav from "react-bootstrap/Nav";
 
 const Footer = () => {
   return (
-    <div className="bg-dark">
+    <div className="grisoscurobg">
       <div className="row no-gutters container px-5 pt-5">
         <div className="col-sm-12 col-md-4 mb-4 text-center">
           <Nav.Link exact={true} href="/#inicio">

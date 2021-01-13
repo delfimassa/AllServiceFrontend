@@ -20,11 +20,14 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
     "react-scroll": "^1.8.1",
+    "react-slick": "^0.27.13",
     "reactstrap": "^8.7.1",
+    "slick-carousel": "^1.8.1",
     "sweetalert2": "^10.12.3",
     "web-vitals": "^0.2.4",
     "yup": "^0.32.1"
   },
+"homepage": "https://www.allservice.com.ar",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

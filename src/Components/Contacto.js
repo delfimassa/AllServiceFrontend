@@ -66,6 +66,7 @@ const Contacto = () => {
             );
           }
         );
+
       return suscriptor;
     }
   };
@@ -73,7 +74,7 @@ const Contacto = () => {
   return (
     <div className="row no-gutters">
       <div className="col-lg-6 p-5 text-center nosm noxs nomd container p-5">
-        <h5 className="mb-3">
+        <h5 className="mb-3 textButton">
           <FontAwesomeIcon
             className="mr-2"
             icon={faPhoneAlt}
@@ -88,7 +89,7 @@ const Contacto = () => {
           rel="noopener noreferrer"
           className="letrasfooter text-dark"
         >
-          <h5 className="mb-3">
+          <h5 className="mb-3 textButton">
             <FontAwesomeIcon
               className="mr-2"
               icon={faWhatsapp}
@@ -104,7 +105,7 @@ const Contacto = () => {
           rel="noopener noreferrer"
           className="letrasfooter text-dark"
         >
-          <h5 className="mb-3">
+          <h5 className="mb-3 textButton">
             <FontAwesomeIcon
               className="mr-2"
               icon={faWhatsapp}
@@ -120,7 +121,7 @@ const Contacto = () => {
           rel="noopener noreferrer"
           className="text-dark"
         >
-          <h5 className="mb-3">
+          <h5 className="mb-3 textButton">
             <FontAwesomeIcon
               className="mr-2"
               icon={faMapMarkerAlt}
@@ -141,10 +142,10 @@ const Contacto = () => {
         ></iframe>
       </div>
       <div className="col-sm-12 col-lg-6 container p-5">
-        <h3 className="mb-3">
+        <h3 className="mb-3 textButton">
           <FontAwesomeIcon
             icon={faEnvelopeOpenText}
-            className="mr-1"
+            className="mr-1 greenContacto "
             size="1x"
           ></FontAwesomeIcon>{" "}
           Envíanos tu consulta
@@ -157,38 +158,38 @@ const Contacto = () => {
         ) : null}
         <Form noValidate validated={validated} onSubmit={handleSubmit}>
           <Form.Group controlId="fullName">
-            <Form.Label>Apellido y Nombre</Form.Label>
+            <Form.Label className="textButton">Apellido y Nombre</Form.Label>
             <Form.Control
               required
               onChange={(e) => setNombreConsultor(e.target.value)}
               type="text"
-              placeholder="Ejemplo: Perez Nahuel"
+              placeholder=""
               name="user_name"
             />
           </Form.Group>
           <Form.Group controlId="direccion"></Form.Group>
-          <Form.Group controlId="telefono">
-            <Form.Label>Telefono</Form.Label>
+          <Form.Group controlId="teléfono">
+            <Form.Label className="textButton">Telefono</Form.Label>
             <Form.Control
               required
               onChange={(e) => setTelefonoConsultor(e.target.value)}
               type="number"
-              placeholder="Ejemplo: 3816150013"
+              placeholder=""
             />
           </Form.Group>
           <Form.Group id="email">
-            <Form.Label>Email</Form.Label>
+            <Form.Label className="textButton">Email</Form.Label>
             <Form.Control
               required
               onChange={(e) => setEmailConsultor(e.target.value)}
               type="email"
-              placeholder="Ejemplo: rollingnews@gmail.com"
+              placeholder=""
               name="user_email"
             />
           </Form.Group>
 
           <Form.Group controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Escribe tu consulta aquí</Form.Label>
+            <Form.Label className="textButton">Escribe tu consulta aquí</Form.Label>
             <Form.Control required as="textarea" rows={4} />
           </Form.Group>
           <Form.Text className="text-muted">
@@ -199,7 +200,7 @@ const Contacto = () => {
               variant="verdebg"
               id="botonverde"
               type="Submit"
-              className="ml-auto text-dark mt-2"
+              className="ml-auto text-dark mt-2 textButton"
             >
               Enviar
             </Button>
@@ -209,9 +210,9 @@ const Contacto = () => {
       <div className="col-lg-6 p-5 text-center nolg noxl container p-5">
         <h5 className="mb-3">
           <FontAwesomeIcon
-            className="mr-2"
+            className="mr-2 "
             icon={faPhoneAlt}
-            color="#282828"
+            color="#abc526"
             size="1x"
           />
           4239995 - 4233773
@@ -226,7 +227,7 @@ const Contacto = () => {
             <FontAwesomeIcon
               className="mr-2"
               icon={faWhatsapp}
-              color="#282828"
+              color="#abc526"
               size="1x"
             />
             3815231792 (Service)
@@ -242,7 +243,7 @@ const Contacto = () => {
             <FontAwesomeIcon
               className="mr-2"
               icon={faWhatsapp}
-              color="#282828"
+              color="#abc526"
               size="1x"
             />
             3816812468 (Repuestos)
@@ -258,7 +259,7 @@ const Contacto = () => {
             <FontAwesomeIcon
               className="mr-2"
               icon={faMapMarkerAlt}
-              color="#282828"
+              color="#abc526"
               size="1x"
             />
             Corrientes 2514 - San Miguel de Tucumán
@@ -272,7 +273,7 @@ const Contacto = () => {
           tabindex="0"
         ></iframe>
       </div>
-    </div>
+          </div>
   );
 };
 

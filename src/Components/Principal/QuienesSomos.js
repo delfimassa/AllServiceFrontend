@@ -18,11 +18,11 @@ const QuienesSomos = () => {
             />
           </div>
           <div className="col-md-7 col-sm-12 grisclarobg px-0">
-            <div className="container text-left pl-4 pr-5 py-4">
-              <h1 className="verdetext letragorda pt-4 pl-4 pb-3">
+            <div className="container text-left py-4">
+              <h1 className="verdetext text-center letragorda pt-4  pb-3">
                 QUIENES SOMOS
               </h1>
-              <h5 className="text-left text-light pl-4 pr-5">
+              <h5 className="text-left mr-2 textQS text-light pl-4 ml-2">
                 Somos una empresa dedicada a la reparación de artefactos a gas y
                 eléctricos, como así también a la venta de repuestos originales.
                 Brindamos asistencia técnica a marcas de primer nivel como
@@ -45,12 +45,12 @@ const QuienesSomos = () => {
             />
           </div>
           <div className="col-md-7 col-sm-12 grisclarobg px-0">
-            <div className="container text-left px-4 py-4">
-              <h3 className="verdetext letragorda pt-2 pl-4 pb-3">
+            <div className="container text-left my-5 px-4 py-4">
+              <h3 className="verdetext text-left letragorda pt-2 pl-4 pb-3">
                 QUIENES SOMOS
               </h3>
-              <h5 className="text-left text-light px-4">
-                Somos una empresa dedicada a la reparación de artefactos a gas y
+              <h5 className=" textQS px-4 ">
+                Somos una empresa dedicada a la reaparación de artefactos a gas y
                 eléctricos, como así también a la venta de repuestos originales.
                 Brindamos asistencia técnica a marcas de primer nivel como
                 LONGVIE, ARISTON, ORBIS, VOLCAN, MORELLI, entre otras. 35 años

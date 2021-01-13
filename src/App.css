@@ -1,8 +1,8 @@
 * {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "asd";
 }
 .letragorda {
-  font-family: "Roboto", sans-serif;
+  font-family: "panton";
 }
 .verdetext {
   color: #abc526;
@@ -51,6 +51,80 @@
   padding-top: 123px;
   margin-top: -123px;
 }
+.letraProductosTitulo{
+  font-family: 'panton';
+}
+.letraProd{
+  font-family: 'asd';
+}
+/* css  slider principal*/
+
+/* small */
+
+/* md */
+.tales {
+  width: 100%;
+  height: 650px;
+}
+
+.taless {
+  width: 100%;
+  height: 235px;
+}
+.letraNombre {
+  font-family: "asd";
+  color: #abc526;
+}
+
+/* css header  */
+.FondoNav {
+  background-color: black;
+}
+
+/* css marcas  */
+.alturaMarcas {
+  bottom: 100px;
+  height: 80px;
+}
+
+/* css contacto */
+.greenContacto {
+  color: #abc526;
+}
+/* css quienes somosletra  */
+
+.textQS {
+  font-family: 'asd';
+}
+.text34 {
+  font-family: 'panton';
+}
+.textNav{
+  font-family: "pantonn";
+}
+
+.textButton{
+  font-family: 'asd';
+}
+
+@font-face {
+  font-family: "panton";
+
+  src: url("/src/fonts/EurostileLTStd-Demi.otf") format("OpenType");
+}
+@font-face {
+  font-family: "pantonn";
+
+  src: url("/src/fonts/EurostileLTStd-Ex2.otf") format("OpenType");
+}
+
+@font-face {
+  font-family: "asd";
+
+  src: url("/src/fonts/EurostileLTStd.otf") format("OpenType");
+}
+
+
 
 /*MEDIA QUERIES*/
 
@@ -59,7 +133,8 @@
   .noxs {
     display: none;
   }
-  #servicios, #inicio {
+  #servicios,
+  #inicio {
     padding-top: 92px;
     margin-top: -92px;
   }
@@ -70,7 +145,8 @@
   .nosm {
     display: none;
   }
-  #servicios, #inicio {
+  #servicios,
+  #inicio {
     padding-top: 92px;
     margin-top: -92px;
   }
@@ -81,7 +157,8 @@
   .nomd {
     display: none;
   }
-  #servicios, #inicio {
+  #servicios,
+  #inicio {
     padding-top: 92px;
     margin-top: -92px;
   }
@@ -92,7 +169,8 @@
   .nolg {
     display: none;
   }
-  #servicios, #inicio {
+  #servicios,
+  #inicio {
     padding-top: 123px;
     margin-top: -123px;
   }
@@ -103,7 +181,8 @@
   .noxl {
     display: none;
   }
-  #servicios, #inicio {
+  #servicios,
+  #inicio {
     padding-top: 123px;
     margin-top: -123px;
   }

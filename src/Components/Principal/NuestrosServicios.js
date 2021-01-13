@@ -26,13 +26,13 @@ const NuestrosServicios = () => {
             <div className="container px-5 py-4 text">
               <h2 className="verdetext letragorda">REPARACIONES</h2>
               <ul className="list-unstyled text-light listamasgrande">
-                <li>Cocinas a gas y eléctricas</li>
-                <li>Anafes a gas y eléctricos</li>
-                <li>Termotanques a gas y eléctricos</li>
-                <li>Calefactores a gas y eléctricos</li>
-                <li>Hornos a gas y eléctricos</li>
-                <li>Calefones a gas</li>
-                <li>Lavarropas, lavavajillas</li>
+                <li className="textQS">Cocinas a gas y eléctricas</li>
+                <li className="textQS">Anafes a gas y eléctricos</li>
+                <li className="textQS">Termotanques a gas y eléctricos</li>
+                <li className="textQS">Calefactores a gas y eléctricos</li>
+                <li className="textQS">Hornos a gas y eléctricos</li>
+                <li className="textQS">Calefones a gas</li>
+                <li className="textQS">Lavarropas, lavavajillas</li>
               </ul>
             </div>
           </div>
@@ -42,14 +42,14 @@ const NuestrosServicios = () => {
             <div className="container text-left px-5 py-4">
               <h2 className="verdetext letragorda">RESTAURACIONES</h2>
               <ul className="list-unstyled text-light listamasgrande">
-                <li>Mano de obra</li>
-                <li>Retiro y entrega a domicilio</li>
-                <li>Mas los siguientes repuestos:</li>
-                <li>Conjunto de bisagras de aperturas</li>
-                <li>Burlete perimetral</li>
-                <li>Lana de vidrio</li>
-                <li>Manta de vidrio</li>
-                <li>Sistema de seguridad</li>
+                <li className="textQS">Mano de obra</li>
+                <li className="textQS">Retiro y entrega a domicilio</li>
+                <li className="textQS">Mas los siguientes repuestos:</li>
+                <li className="textQS">Conjunto de bisagras de aperturas</li>
+                <li className="textQS">Burlete perimetral</li>
+                <li className="textQS">Lana de vidrio</li>
+                <li className="textQS">Manta de vidrio</li>
+                <li className="textQS">Sistema de seguridad</li>
               </ul>
             </div>
           </div>
@@ -69,11 +69,11 @@ const NuestrosServicios = () => {
             <div className="container text-left px-5 py-4">
               <h2 className="verdetext letragorda">REPUESTOS</h2>
               <ul className="list-unstyled text-light listamasgrande">
-                <li>Repuestos originales</li>
-                <li>Kit quemadores LONGVIE</li>
-                <li>Kit quemadores ORBIS</li>
-                <li>Kit quemadores VOLCÁN</li>
-                <li>Kit quemadores DOMEC</li>
+                <li className="textQS">Repuestos originales</li>
+                <li className="textQS">Kit quemadores LONGVIE</li>
+                <li className="textQS">Kit quemadores ORBIS</li>
+                <li className="textQS">Kit quemadores VOLCÁN</li>
+                <li className="textQS">Kit quemadores DOMEC</li>
               </ul>
             </div>
           </div>
@@ -92,14 +92,14 @@ const NuestrosServicios = () => {
           <div className="col-sm-12 col-md-6 grisoscurobg p-0 m-0">
             <div className="container pl-5 py-4">
               <h3 className="verdetext letragorda">REPARACIONES</h3>
-              <ul className="list-unstyled text-light">
-                <li>Cocinas a gas y eléctricas</li>
-                <li>Anafes a gas y eléctricos</li>
-                <li>Termotanques a gas y eléctricos</li>
-                <li>Calefactores a gas y eléctricos</li>
-                <li>Hornos a gas y eléctricos</li>
-                <li>Calefones a gas</li>
-                <li>Lavarropas, lavavajillas</li>
+              <ul className="list-unstyled textQS text-light ">
+                <li className="textQS">Cocinas a gas y eléctricas</li>
+                <li className="textQS">Anafes a gas y eléctricos</li>
+                <li className="textQS">Termotanques a gas y eléctricos</li>
+                <li className="textQS">Calefactores a gas y eléctricos</li>
+                <li className="textQS">Hornos a gas y eléctricos</li>
+                <li className="textQS">Calefones a gas</li>
+                <li className="textQS">Lavarropas, lavavajillas</li>
               </ul>
             </div>
           </div>
@@ -109,14 +109,14 @@ const NuestrosServicios = () => {
             <div className="container text-left pl-5 py-4">
               <h3 className="verdetext letragorda">RESTAURACIONES</h3>
               <ul className="list-unstyled text-light">
-                <li>Mano de obra</li>
-                <li>Retiro y entrega a domicilio</li>
-                <li>Mas los siguientes repuestos:</li>
-                <li>Conjunto de bisagras de aperturas</li>
-                <li>Burlete perimetral</li>
-                <li>Lana de vidrio</li>
-                <li>Manta de vidrio</li>
-                <li>Sistema de seguridad</li>
+                <li className="textQS">Mano de obra</li>
+                <li className="textQS">Retiro y entrega a domicilio</li>
+                <li className="textQS">Mas los siguientes repuestos:</li>
+                <li className="textQS">Conjunto de bisagras de aperturas</li>
+                <li className="textQS">Burlete perimetral</li>
+                <li className="textQS">Lana de vidrio</li>
+                <li className="textQS">Manta de vidrio</li>
+                <li className="textQS">Sistema de seguridad</li>
               </ul>
             </div>
           </div>
@@ -136,11 +136,11 @@ const NuestrosServicios = () => {
             <div className="container text-left pl-5 py-4">
               <h3 className="verdetext letragorda">REPUESTOS</h3>
               <ul className="list-unstyled text-light">
-                <li>Repuestos originales</li>
-                <li>Kit quemadores LONGVIE</li>
-                <li>Kit quemadores ORBIS</li>
-                <li>Kit quemadores VOLCÁN</li>
-                <li>Kit quemadores DOMEC</li>
+                <li className="textQS">Repuestos originales</li>
+                <li className="textQS">Kit quemadores LONGVIE</li>
+                <li className="textQS">Kit quemadores ORBIS</li>
+                <li className="textQS">Kit quemadores VOLCÁN</li>
+                <li className="textQS">Kit quemadores DOMEC</li>
               </ul>
             </div>
           </div>
@@ -160,13 +160,13 @@ const NuestrosServicios = () => {
             <div className="container text-left pl-5 py-4">
               <h3 className="verdetext letragorda">REPARACIONES</h3>
               <ul className="list-unstyled text-light">
-                <li>Cocinas a gas y eléctricas</li>
-                <li>Anafes a gas y eléctricos</li>
-                <li>Termotanques a gas y eléctricos</li>
-                <li>Calefactores a gas y eléctricos</li>
-                <li>Hornos a gas y eléctricos</li>
-                <li>Calefones a gas</li>
-                <li>Lavarropas, lavavajillas</li>
+                <li className="textQS">Cocinas a gas y eléctricas</li>
+                <li className="textQS">Anafes a gas y eléctricos</li>
+                <li className="textQS">Termotanques a gas y eléctricos</li>
+                <li className="textQS">Calefactores a gas y eléctricos</li>
+                <li className="textQS">Hornos a gas y eléctricos</li>
+                <li className="textQS">Calefones a gas</li>
+                <li className="textQS">Lavarropas, lavavajillas</li>
               </ul>
             </div>
           </div>
@@ -183,14 +183,14 @@ const NuestrosServicios = () => {
             <div className="container text-left pl-5 py-4">
               <h3 className="verdetext letragorda">RESTAURACIONES</h3>
               <ul className="list-unstyled text-light">
-                <li>Mano de obra</li>
-                <li>Retiro y entrega a domicilio</li>
-                <li>Mas los siguientes repuestos:</li>
-                <li>Conjunto de bisagras de aperturas</li>
-                <li>Burlete perimetral</li>
-                <li>Lana de vidrio</li>
-                <li>Manta de vidrio</li>
-                <li>Sistema de seguridad</li>
+                <li className="textQS">Mano de obra</li>
+                <li className="textQS">Retiro y entrega a domicilio</li>
+                <li className="textQS">Mas los siguientes repuestos:</li>
+                <li className="textQS">Conjunto de bisagras de aperturas</li>
+                <li className="textQS">Burlete perimetral</li>
+                <li className="textQS">Lana de vidrio</li>
+                <li className="textQS">Manta de vidrio</li>
+                <li className="textQS">Sistema de seguridad</li>
               </ul>
             </div>
           </div>
@@ -203,11 +203,11 @@ const NuestrosServicios = () => {
             <div className="container text-left pl-5 py-4">
               <h3 className="verdetext letragorda">REPUESTOS</h3>
               <ul className="list-unstyled text-light">
-                <li>Repuestos originales</li>
-                <li>Kit quemadores LONGVIE</li>
-                <li>Kit quemadores ORBIS</li>
-                <li>Kit quemadores VOLCÁN</li>
-                <li>Kit quemadores DOMEC</li>
+                <li className="textQS">Repuestos originales</li>
+                <li className="textQS">Kit quemadores LONGVIE</li>
+                <li className="textQS">Kit quemadores ORBIS</li>
+                <li className="textQS">Kit quemadores VOLCÁN</li>
+                <li className="textQS"> Kit quemadores DOMEC</li>
               </ul>
             </div>
           </div>

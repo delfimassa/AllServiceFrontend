@@ -5,7 +5,7 @@ import Inicio from "./Components/Principal/Inicio";
 import Header from "./Components/Common/Header";
 import Footer from "./Components/Common/Footer";
 import Contacto from "./Components/Contacto";
-import Whatsapp from "./Components/Common/Whatsapp"
+
 
 function App() {
   return (
@@ -19,7 +19,6 @@ function App() {
           <Contacto></Contacto>
         </Route>
       </Switch>
-      <Whatsapp></Whatsapp>
       <Footer></Footer>
     </Router>
 
