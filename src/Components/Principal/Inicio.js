@@ -16,8 +16,7 @@ const Inicio = () => {
       <Slider></Slider>
       <Marcas></Marcas>
       <Nombres></Nombres>
-      
-      <Card35A></Card35A>
+            <Card35A></Card35A>
       <QuienesSomos></QuienesSomos>
       <NuestrosServicios></NuestrosServicios>
       <ProductosQReparamos></ProductosQReparamos>

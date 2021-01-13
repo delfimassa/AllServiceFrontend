@@ -24,10 +24,11 @@ const QuienesSomos = () => {
               </h1>
               <h5 className="text-left mr-2 textQS text-light pl-4 ml-2">
                 Somos una empresa dedicada a la reparación de artefactos a gas y
-                eléctricos, como así también a la venta de repuestos originales.
-                Brindamos asistencia técnica a marcas de primer nivel como
-                LONGVIE, ARISTON, ORBIS, VOLCAN, MORELLI, entre otras. 35 años
-                de trayectoria nos avalan.
+                eléctricos, de línea blanca, como así también a la venta de
+                repuestos originales. Brindamos asistencia técnica a marcas de
+                primer nivel como LONGVIE, ARISTON, ORBIS, VOLCAN, MORELLI,
+                entre otras. Nuestra cobertura de asistencia técnica se extiende
+                a las principales ciudades de la provincia de Tucumán.
               </h5>
             </div>
           </div>
@@ -50,11 +51,11 @@ const QuienesSomos = () => {
                 QUIENES SOMOS
               </h3>
               <h5 className=" textQS px-4 ">
-                Somos una empresa dedicada a la reaparación de artefactos a gas y
-                eléctricos, como así también a la venta de repuestos originales.
-                Brindamos asistencia técnica a marcas de primer nivel como
-                LONGVIE, ARISTON, ORBIS, VOLCAN, MORELLI, entre otras. 35 años
-                de trayectoria nos avalan.
+                Somos una empresa dedicada a la reaparación de artefactos a gas
+                y eléctricos, como así también a la venta de repuestos
+                originales. Brindamos asistencia técnica a marcas de primer
+                nivel como LONGVIE, ARISTON, ORBIS, VOLCAN, MORELLI, entre
+                otras. 35 años de trayectoria nos avalan.
               </h5>
             </div>
           </div>
