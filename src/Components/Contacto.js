@@ -169,7 +169,7 @@ const Contacto = () => {
           </Form.Group>
           <Form.Group controlId="direccion"></Form.Group>
           <Form.Group controlId="teléfono">
-            <Form.Label className="textButton">Telefono</Form.Label>
+            <Form.Label className="textButton">Teléfono</Form.Label>
             <Form.Control
               required
               onChange={(e) => setTelefonoConsultor(e.target.value)}

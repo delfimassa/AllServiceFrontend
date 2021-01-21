@@ -72,7 +72,7 @@ const Header = () => {
         </Navbar>
       </div> */}
       {/* NAV OSCURO */}
-      <Navbar  collapseOnSelect className="FondoNav" variant="dark" expand="lg">
+      <Navbar collapseOnSelect className="FondoNav" variant="dark" expand="lg">
         <div className="container py-1">
           <Nav.Link exact={true} href="/#inicio">
             <img src={logo} alt="logo del NavBar" width="110px"></img>
@@ -85,28 +85,28 @@ const Header = () => {
                 href="/#inicio"
                 className="nav-link text-light mx-3 textNav"
               >
-                INICIO
+                <h5 className="textNav">INICIO</h5>{" "}
               </Nav.Link>
               <Nav.Link
                 exact={true}
                 href="/#servicios"
                 className="nav-link text-light mx-3 textNav"
               >
-                SERVICIOS
+                <h5 className="textNav">SERVICES</h5>
               </Nav.Link>
               <Nav.Link
                 exact={true}
                 href="/#productosqreparamos"
                 className="nav-link text-light mx-3 textNav"
               >
-                PRODUCTOS
+                <h5 className="textNav">PRODUCTOS</h5>
               </Nav.Link>
               <Nav.Link
                 exact={true}
                 href="/contacto"
                 className="nav-link text-light mx-3 textNav"
               >
-                CONTACTO
+                <h5 className="textNav">CONTACTO</h5>{" "}
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

@@ -10,8 +10,8 @@ const Slider = () => {
         rel="noopener noreferrer"
       >
         <img
-          height="70px"
-          width="70px"
+          height="50px"
+          width="50px"
           src={logowp}
           alt="Logo de whatsapp, presione para redireccionar a la aplicacion"
         />

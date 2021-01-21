@@ -7,8 +7,17 @@
 .verdetext {
   color: #abc526;
 }
+
+.fondonegro {
+  background: black;
+}
+
 .grisoscurotext {
   color: #282828;
+}
+.asd {
+  width: 150px;
+  height: 100px;
 }
 .grisoscurobg {
   background-color: #282828;
@@ -49,13 +58,13 @@
 
 #productosqreparamos {
   padding-top: 123px;
-  margin-top: -123px;
+  margin-top: -171px;
 }
-.letraProductosTitulo{
-  font-family: 'panton';
+.letraProductosTitulo {
+  font-family: "panton";
 }
-.letraProd{
-  font-family: 'asd';
+.letraProd {
+  font-family: "asd";
 }
 /* css  slider principal*/
 
@@ -75,6 +84,9 @@
   font-family: "asd";
   color: #abc526;
 }
+.letraFooterTitulos {
+  color: #abc526;
+}
 
 /* css header  */
 .FondoNav {
@@ -87,6 +99,17 @@
   height: 80px;
 }
 
+.noGutters{
+  margin-right: 0;
+  margin-left: 0;
+}
+@media (min-width: 992px) {
+  .col-md {
+    float: left;
+
+    width: 20%;
+  }
+}
 /* css contacto */
 .greenContacto {
   color: #abc526;
@@ -94,17 +117,17 @@
 /* css quienes somosletra  */
 
 .textQS {
-  font-family: 'asd';
+  font-family: "asd";
 }
 .text34 {
-  font-family: 'panton';
+  font-family: "panton";
 }
-.textNav{
+.textNav {
   font-family: "pantonn";
 }
 
-.textButton{
-  font-family: 'asd';
+.textButton {
+  font-family: "asd";
 }
 
 @font-face {
@@ -123,8 +146,6 @@
 
   src: url("/src/fonts/EurostileLTStd.otf") format("OpenType");
 }
-
-
 
 /*MEDIA QUERIES*/
 

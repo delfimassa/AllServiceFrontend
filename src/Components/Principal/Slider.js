@@ -10,7 +10,7 @@ const Slider = () => {
     <div id="inicio">
       <Carousel  className="d-none d-md-block d-sm-none">
         <Carousel.Item>
-          <img className=" w-100 tales" src={slider4} alt="Imagen 1" />
+          <img className=" w-100 tales " src={slider4} alt="Imagen 1"  />
         </Carousel.Item>
         <Carousel.Item>
           <img className=" w-100 tales" src={slider2} alt="Imagen 2" />
@@ -19,12 +19,12 @@ const Slider = () => {
           <img className=" w-100 tales" src={slider3} alt="Imagen 3" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className=" w-100 tales" src={slider4} alt="Imagen 4" />
+          <img className=" w-100 tales" src={slider1} alt="Imagen 4" />
         </Carousel.Item>
       </Carousel>
       <Carousel  className="d-md-none d-sm-block">
         <Carousel.Item> 
-          <img className=" w-100 taless" src={slider1} alt="Imagen 1" />
+          <img className=" w-100 taless" src={slider4} alt="Imagen 1" />
         </Carousel.Item>
         <Carousel.Item>
           <img className=" w-100 taless" src={slider2} alt="Imagen 2" />
@@ -33,7 +33,7 @@ const Slider = () => {
           <img className=" w-100 taless" src={slider3} alt="Imagen 3" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className=" w-100 taless" src={slider4} alt="Imagen 4" />
+          <img className=" w-100 taless" src={slider1} alt="Imagen 4" />
         </Carousel.Item>
       </Carousel>
     </div>

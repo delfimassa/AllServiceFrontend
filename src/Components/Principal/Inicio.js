@@ -9,14 +9,13 @@ import Card35A from "./Card35A";
 import Nombres from "./Nombres";
 import Whatsapp from "./Whatsapp";
 
-
 const Inicio = () => {
   return (
     <div>
       <Slider></Slider>
       <Marcas></Marcas>
       <Nombres></Nombres>
-            <Card35A></Card35A>
+      <Card35A></Card35A>
       <QuienesSomos></QuienesSomos>
       <NuestrosServicios></NuestrosServicios>
       <ProductosQReparamos></ProductosQReparamos>

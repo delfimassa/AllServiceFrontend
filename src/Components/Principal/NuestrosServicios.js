@@ -7,8 +7,8 @@ const NuestrosServicios = () => {
   return (
     <div id="servicios">
       {/* TITULO GRANDE */}
-      <div className="verdebg p-5">
-        <h1 className="text-center grisoscurotext letragorda mb-0">
+      <div className="verdebg fondonegro p-5">
+        <h1 className="text-center verdetext letragorda mb-0">
           NUESTROS SERVICIOS
         </h1>
       </div>

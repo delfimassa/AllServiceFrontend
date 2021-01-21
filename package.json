@@ -27,7 +27,7 @@
     "web-vitals": "^0.2.4",
     "yup": "^0.32.1"
   },
-"homepage": "https://www.allservice.com.ar",
+  "homepage": "https://www.allservice.com.ar",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

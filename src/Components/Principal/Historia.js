@@ -3,7 +3,7 @@ import React from "react";
 const Historia = () => {
   return (
     <div>
-      <div className="fondonegro   noxs nosm">
+      <div className="  grisoscurobg  noxs nosm">
         <h1 className="letragorda verdetext mx-4 pt-5 px-5 text-left">
           HISTORIA
         </h1>

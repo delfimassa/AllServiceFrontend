@@ -5,7 +5,6 @@ import Slider from "react-slick";
 
 function Nombres() {
   var settings = {
-    dots: true,
     infinite: true,
     speed: 500,
     slidesToScroll: 1,
