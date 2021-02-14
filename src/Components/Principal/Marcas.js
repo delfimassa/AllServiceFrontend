@@ -21,19 +21,19 @@ const Marcas = () => {
     speed: 500,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3300,
+    autoplaySpeed: 2500,
   };
   const images = [
-    volcan,
     longvie,
     ariston,
     orbis,
-    depaolo,
-    midea,
     morelli,
-    usman,
+    volcan,
+    midea,
     patrick,
+    depaolo,
     mabe,
+    usman,
     ge,
   ];
   return (

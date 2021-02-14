@@ -1,8 +1,8 @@
 * {
-  font-family: "asd";
+  font-family: "EurostileLTStd";
 }
 .letragorda {
-  font-family: "panton";
+  font-family: "EurostileLTStd-Demi";
 }
 .verdetext {
   color: #abc526;
@@ -61,10 +61,10 @@
   margin-top: -171px;
 }
 .letraProductosTitulo {
-  font-family: "panton";
+  font-family: "EurostileLTStd-Demi";
 }
 .letraProd {
-  font-family: "asd";
+  font-family: "EurostileLTStd";
 }
 /* css  slider principal*/
 
@@ -81,7 +81,7 @@
   height: 235px;
 }
 .letraNombre {
-  font-family: "asd";
+  font-family: "EurostileLTStd";
   color: #abc526;
 }
 .letraFooterTitulos {
@@ -114,35 +114,34 @@
 .greenContacto {
   color: #abc526;
 }
-/* css quienes somosletra  */
 
 .textQS {
-  font-family: "asd";
+  font-family: "EurostileLTStd";
 }
 .text34 {
-  font-family: "panton";
+  font-family: "EurostileLTStd-Demi";
 }
 .textNav {
-  font-family: "pantonn";
+  font-family: "EurostileLTStd-Ex2";
 }
 
 .textButton {
-  font-family: "asd";
+  font-family: "EurostileLTStd";
 }
 
 @font-face {
-  font-family: "panton";
+  font-family: "EurostileLTStd-Demi";
 
   src: url("/src/fonts/EurostileLTStd-Demi.otf") format("OpenType");
 }
 @font-face {
-  font-family: "pantonn";
+  font-family: "EurostileLTStd-Ex2";
 
   src: url("/src/fonts/EurostileLTStd-Ex2.otf") format("OpenType");
 }
 
 @font-face {
-  font-family: "asd";
+  font-family: "EurostileLTStd";
 
   src: url("/src/fonts/EurostileLTStd.otf") format("OpenType");
 }

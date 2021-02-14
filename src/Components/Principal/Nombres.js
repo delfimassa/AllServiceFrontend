@@ -9,7 +9,7 @@ function Nombres() {
     speed: 500,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1700,
   };
   return (
     <div>

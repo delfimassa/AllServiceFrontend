@@ -1,7 +1,7 @@
 import React from "react";
 import reparaciones from "../../assets/images/reparaciones.jpg";
 import repuestos from "../../assets/images/repuestos.jpg";
-import restauraciones from "../../assets/images/restauraciones.jpg";
+import restauraciones from "../../assets/images/web_restauraciones.jpg";
 
 const NuestrosServicios = () => {
   return (
@@ -25,14 +25,16 @@ const NuestrosServicios = () => {
           <div className="col-sm-12 col-md-6 grisoscurobg p-5 m-0">
             <div className="container px-5 py-4 text">
               <h2 className="verdetext letragorda">REPARACIONES</h2>
-              <ul className="list-unstyled text-light listamasgrande">
+              <ul className= "text-light listamasgrande">
                 <li className="textQS">Cocinas a gas y eléctricas</li>
                 <li className="textQS">Anafes a gas y eléctricos</li>
-                <li className="textQS">Termotanques a gas y eléctricos</li>
-                <li className="textQS">Calefactores a gas y eléctricos</li>
                 <li className="textQS">Hornos a gas y eléctricos</li>
                 <li className="textQS">Calefones a gas</li>
-                <li className="textQS">Lavarropas, lavavajillas</li>
+                <li className="textQS">Termotanques a gas y eléctricos</li>
+                <li className="textQS">Calefactores a gas y eléctricos</li>
+                <li className="textQS">Lavarropas, lavasecarropas</li>
+                <li className="textQS"> Lavavajillas</li>
+                <li className="textQS">Secarropas de aire caliente</li>
               </ul>
             </div>
           </div>
@@ -42,14 +44,15 @@ const NuestrosServicios = () => {
             <div className="container text-left px-5 py-4">
               <h2 className="verdetext letragorda">RESTAURACIONES</h2>
               <ul className="list-unstyled text-light listamasgrande">
-                <li className="textQS">Mano de obra</li>
-                <li className="textQS">Retiro y entrega a domicilio</li>
-                <li className="textQS">Mas los siguientes repuestos:</li>
-                <li className="textQS">Conjunto de bisagras de aperturas</li>
-                <li className="textQS">Burlete perimetral</li>
-                <li className="textQS">Lana de vidrio</li>
-                <li className="textQS">Manta de vidrio</li>
-                <li className="textQS">Sistema de seguridad</li>
+                <li className="textQS">
+                  Sin moverte de tu casa un técnico de nuestro Staff te visitara
+                  para poder realizar un presupuesto de acuerdo a la medida de
+                  tus necesidades. Somos especialistas en dejar tus productos
+                  como nuevos, realizamos trabajos personalizados y artesanal en
+                  cada uno de ellos, utilizando siempre las piezas originales y
+                  mano de obra especializada, garantizando el correcto
+                  funcionamiento de tus productos.
+                </li>
               </ul>
             </div>
           </div>
@@ -69,11 +72,11 @@ const NuestrosServicios = () => {
             <div className="container text-left px-5 py-4">
               <h2 className="verdetext letragorda">REPUESTOS</h2>
               <ul className="list-unstyled text-light listamasgrande">
-                <li className="textQS">Repuestos originales</li>
-                <li className="textQS">Kit quemadores LONGVIE</li>
-                <li className="textQS">Kit quemadores ORBIS</li>
-                <li className="textQS">Kit quemadores VOLCÁN</li>
-                <li className="textQS">Kit quemadores DOMEC</li>
+                <li className="textQS">
+                  Contamos con un amplio Stock de piezas originales,
+                  garantizando que el funcionamiento de sus productos sea
+                  siempre como el primer día. Hacemos envío a todo el país.
+                </li>
               </ul>
             </div>
           </div>
@@ -92,14 +95,16 @@ const NuestrosServicios = () => {
           <div className="col-sm-12 col-md-6 grisoscurobg p-0 m-0">
             <div className="container pl-5 py-4">
               <h3 className="verdetext letragorda">REPARACIONES</h3>
-              <ul className="list-unstyled textQS text-light ">
+              <ul className=" text-light listamasgrande">
                 <li className="textQS">Cocinas a gas y eléctricas</li>
                 <li className="textQS">Anafes a gas y eléctricos</li>
-                <li className="textQS">Termotanques a gas y eléctricos</li>
-                <li className="textQS">Calefactores a gas y eléctricos</li>
                 <li className="textQS">Hornos a gas y eléctricos</li>
                 <li className="textQS">Calefones a gas</li>
-                <li className="textQS">Lavarropas, lavavajillas</li>
+                <li className="textQS">Termotanques a gas y eléctricos</li>
+                <li className="textQS">Calefactores a gas y eléctricos</li>
+                <li className="textQS">Lavarropas, lavasecarropas</li>
+                <li className="textQS"> Lavavajillas</li>
+                <li className="textQS">Secarropas de aire caliente</li>
               </ul>
             </div>
           </div>
@@ -109,14 +114,15 @@ const NuestrosServicios = () => {
             <div className="container text-left pl-5 py-4">
               <h3 className="verdetext letragorda">RESTAURACIONES</h3>
               <ul className="list-unstyled text-light">
-                <li className="textQS">Mano de obra</li>
-                <li className="textQS">Retiro y entrega a domicilio</li>
-                <li className="textQS">Mas los siguientes repuestos:</li>
-                <li className="textQS">Conjunto de bisagras de aperturas</li>
-                <li className="textQS">Burlete perimetral</li>
-                <li className="textQS">Lana de vidrio</li>
-                <li className="textQS">Manta de vidrio</li>
-                <li className="textQS">Sistema de seguridad</li>
+                <li className="textQS">
+                  Sin moverte de tu casa un técnico de nuestro Staff te visitara
+                  para poder realizar un presupuesto de acuerdo a la medida de
+                  tus necesidades. Somos especialistas en dejar tus productos
+                  como nuevos, realizamos trabajos personalizados y artesanal en
+                  cada uno de ellos, utilizando siempre las piezas originales y
+                  mano de obra especializada, garantizando el correcto
+                  funcionamiento de tus productos.
+                </li>
               </ul>
             </div>
           </div>
@@ -136,11 +142,11 @@ const NuestrosServicios = () => {
             <div className="container text-left pl-5 py-4">
               <h3 className="verdetext letragorda">REPUESTOS</h3>
               <ul className="list-unstyled text-light">
-                <li className="textQS">Repuestos originales</li>
-                <li className="textQS">Kit quemadores LONGVIE</li>
-                <li className="textQS">Kit quemadores ORBIS</li>
-                <li className="textQS">Kit quemadores VOLCÁN</li>
-                <li className="textQS">Kit quemadores DOMEC</li>
+                <li className="textQS">
+                  Contamos con un amplio Stock de piezas originales,
+                  garantizando que el funcionamiento de sus productos sea
+                  siempre como el primer día. Hacemos envío a todo el país.
+                </li>
               </ul>
             </div>
           </div>
@@ -156,17 +162,19 @@ const NuestrosServicios = () => {
               alt="reparaciones"
             />
           </div>
-          <div className="col-sm-12 col-md-6 grisoscurobg p-0 m-0">
-            <div className="container text-left pl-5 py-4">
-              <h3 className="verdetext letragorda">REPARACIONES</h3>
-              <ul className="list-unstyled text-light">
+          <div className="col-sm-12 col-md-6 grisoscurobg pl-4 p-0 m-0">
+            <div className="container text-left pl-3 py-4">
+              <h3 className="mr-3 verdetext letragorda">REPARACIONES</h3>
+              <ul className=" text-light">
                 <li className="textQS">Cocinas a gas y eléctricas</li>
                 <li className="textQS">Anafes a gas y eléctricos</li>
-                <li className="textQS">Termotanques a gas y eléctricos</li>
-                <li className="textQS">Calefactores a gas y eléctricos</li>
                 <li className="textQS">Hornos a gas y eléctricos</li>
                 <li className="textQS">Calefones a gas</li>
-                <li className="textQS">Lavarropas, lavavajillas</li>
+                <li className="textQS">Termotanques a gas y eléctricos</li>
+                <li className="textQS">Calefactores a gas y eléctricos</li>
+                <li className="textQS">Lavarropas, lavasecarropas</li>
+                <li className="textQS"> Lavavajillas</li>
+                <li className="textQS">Secarropas de aire caliente</li>
               </ul>
             </div>
           </div>
@@ -183,14 +191,15 @@ const NuestrosServicios = () => {
             <div className="container text-left pl-5 py-4">
               <h3 className="verdetext letragorda">RESTAURACIONES</h3>
               <ul className="list-unstyled text-light">
-                <li className="textQS">Mano de obra</li>
-                <li className="textQS">Retiro y entrega a domicilio</li>
-                <li className="textQS">Mas los siguientes repuestos:</li>
-                <li className="textQS">Conjunto de bisagras de aperturas</li>
-                <li className="textQS">Burlete perimetral</li>
-                <li className="textQS">Lana de vidrio</li>
-                <li className="textQS">Manta de vidrio</li>
-                <li className="textQS">Sistema de seguridad</li>
+                <li className="textQS">
+                  Sin moverte de tu casa un técnico de nuestro Staff te visitara
+                  para poder realizar un presupuesto de acuerdo a la medida de
+                  tus necesidades. Somos especialistas en dejar tus productos
+                  como nuevos, realizamos trabajos personalizados y artesanal en
+                  cada uno de ellos, utilizando siempre las piezas originales y
+                  mano de obra especializada, garantizando el correcto
+                  funcionamiento de tus productos.
+                </li>
               </ul>
             </div>
           </div>
@@ -203,11 +212,11 @@ const NuestrosServicios = () => {
             <div className="container text-left pl-5 py-4">
               <h3 className="verdetext letragorda">REPUESTOS</h3>
               <ul className="list-unstyled text-light">
-                <li className="textQS">Repuestos originales</li>
-                <li className="textQS">Kit quemadores LONGVIE</li>
-                <li className="textQS">Kit quemadores ORBIS</li>
-                <li className="textQS">Kit quemadores VOLCÁN</li>
-                <li className="textQS"> Kit quemadores DOMEC</li>
+                <li className="textQS">
+                  Contamos con un amplio Stock de piezas originales,
+                  garantizando que el funcionamiento de sus productos sea
+                  siempre como el primer día. Hacemos envío a todo el país.
+                </li>
               </ul>
             </div>
           </div>
