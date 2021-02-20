@@ -60,6 +60,8 @@ const Contacto = () => {
               "Tu consulta fue enviada correctamente.",
               "success"
             );
+            e.target.reset()
+            setValidated(false);
           },
           (error) => {
             Swal.fire(
@@ -79,7 +81,7 @@ const Contacto = () => {
       <div className="col-lg-6 p-5 text-center nosm noxs nomd container p-5">
         <h5 className="mb-3 textButton">
           <FontAwesomeIcon
-            className="mr-2"
+            className="mr-2 verdetext"
             icon={faPhoneAlt}
             color="#282828"
             size="1x"
@@ -88,7 +90,7 @@ const Contacto = () => {
         </h5>
         <h5 className="mb-3 textButton">
           <FontAwesomeIcon
-            className="mr-2"
+            className="mr-2 verdetext"
             icon={faPhoneAlt}
             color="#282828"
             size="1x"
@@ -103,7 +105,7 @@ const Contacto = () => {
         >
           <h5 className="mb-3 textButton">
             <FontAwesomeIcon
-              className="mr-2"
+              className="mr-2 verdetext"
               icon={faWhatsapp}
               color="#282828"
               size="1x"
@@ -119,7 +121,7 @@ const Contacto = () => {
         >
           <h5 className="mb-3 textButton">
             <FontAwesomeIcon
-              className="mr-2"
+              className="mr-2 verdetext"
               icon={faWhatsapp}
               color="#282828"
               size="1x"
@@ -135,7 +137,7 @@ const Contacto = () => {
         >
           <h5 className="mb-3 textButton">
             <FontAwesomeIcon
-              className="mr-2"
+              className="mr-2 verdetext"
               icon={faMapMarkerAlt}
               color="#282828"
               size="1x"
