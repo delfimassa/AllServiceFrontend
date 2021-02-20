@@ -85,28 +85,28 @@ const Header = () => {
                 href="/#inicio"
                 className="nav-link text-light mx-3 textNav"
               >
-                <h5 className="textNav">INICIO</h5>{" "}
+                <h6 className="textNav">INICIO</h6>{" "}
               </Nav.Link>
               <Nav.Link
                 exact={true}
                 href="/#servicios"
                 className="nav-link text-light mx-3 textNav"
               >
-                <h5 className="textNav">SERVICES</h5>
+                <h6 className="textNav">SERVICIOS</h6>
               </Nav.Link>
               <Nav.Link
                 exact={true}
                 href="/#productosqreparamos"
                 className="nav-link text-light mx-3 textNav"
               >
-                <h5 className="textNav">PRODUCTOS</h5>
+                <h6 className="textNav">PRODUCTOS</h6>
               </Nav.Link>
               <Nav.Link
                 exact={true}
                 href="/contacto"
                 className="nav-link text-light mx-3 textNav"
               >
-                <h5 className="textNav">CONTACTO</h5>{" "}
+                <h6 className="textNav">CONTACTO</h6>{" "}
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

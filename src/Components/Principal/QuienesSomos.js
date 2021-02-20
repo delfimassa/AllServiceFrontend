@@ -17,12 +17,12 @@ const QuienesSomos = () => {
               alt="quienes somos"
             />
           </div>
-          <div className="col-md-7 col-sm-12 grisclarobg px-0">
-            <div className="container text-left py-4">
-              <h1 className="verdetext text-center letragorda pt-4  pb-3">
+          <div className="col-md-7 col-sm-12 grisclarobg">
+            <div className="text-left mx-5 my-5">
+              <h1 className="verdetext text-center letragorda">
                 QUIENES SOMOS
               </h1>
-              <h5 className="text-left mr-2 textQS text-light pl-4 ml-2">
+              <h5 className="text-left textQS text-light">
                 Somos una empresa dedicada a la reparación de artefactos a gas y
                 eléctricos, de línea blanca, como así también a la venta de
                 repuestos originales. Brindamos asistencia técnica a marcas de
@@ -46,11 +46,11 @@ const QuienesSomos = () => {
             />
           </div>
           <div className="col-md-7 col-sm-12 grisclarobg px-0">
-            <div className="container text-left my-5 px-4 py-4">
+            <div className="container text-left my-3 px-4 pb-1">
               <h3 className="verdetext text-left letragorda pt-2 pl-4 pb-3">
                 QUIENES SOMOS
               </h3>
-              <h5 className=" textQS px-4 ">
+              <h5 className="text-light textQS px-4 ">
                 Somos una empresa dedicada a la reaparación de artefactos a gas
                 y eléctricos, como así también a la venta de repuestos
                 originales. Brindamos asistencia técnica a marcas de primer

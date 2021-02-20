@@ -16,6 +16,9 @@ import Alert from "react-bootstrap/Alert";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
 
+
+
+
 const Contacto = () => {
   const [validated, setValidated] = useState(false);
   const [nombreConsultor, setNombreConsultor] = useState("");
@@ -81,7 +84,16 @@ const Contacto = () => {
             color="#282828"
             size="1x"
           />
-          4239995 - 4233773
+          381 423-9995
+        </h5>
+        <h5 className="mb-3 textButton">
+          <FontAwesomeIcon
+            className="mr-2"
+            icon={faPhoneAlt}
+            color="#282828"
+            size="1x"
+          />
+          381 423-3773
         </h5>
         <a
           href="https://wa.me/5493815231792"
@@ -96,7 +108,7 @@ const Contacto = () => {
               color="#282828"
               size="1x"
             />
-            3815231792 (Service)
+            381 523-1792 (Service)
           </h5>
         </a>
         <a
@@ -112,7 +124,7 @@ const Contacto = () => {
               color="#282828"
               size="1x"
             />
-            3816812468 (Repuestos)
+            381 681-2468 (Repuestos)
           </h5>
         </a>
         <a
@@ -131,15 +143,18 @@ const Contacto = () => {
             Corrientes 2514 - San Miguel de Tucumán
           </h5>
         </a>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d7121.3296679872765!2d-65.23206769931612!3d-26.81879873867179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94225c59e8cf6725%3A0xd0ba3b86aeabd2d4!2sall%20service%20tucuman!3m2!1d-26.816794299999998!2d-65.2334578!5e0!3m2!1ses!2sar!4v1607548696091!5m2!1ses!2sar"
-          width="400"
-          height="300"
-          frameborder="0"
-          allowfullscreen=""
-          aria-hidden="false"
-          tabindex="0"
-        ></iframe>
+        <div className="text-center ">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d7121.3296679872765!2d-65.23206769931612!3d-26.81879873867179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94225c59e8cf6725%3A0xd0ba3b86aeabd2d4!2sall%20service%20tucuman!3m2!1d-26.816794299999998!2d-65.2334578!5e0!3m2!1ses!2sar!4v1607548696091!5m2!1ses!2sar"
+            width="450"
+            height="300"
+            frameborder="0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+            className="rounded"
+          ></iframe>
+        </div>
       </div>
       <div className="col-sm-12 col-lg-6 container p-5">
         <h3 className="mb-3 textButton">
@@ -189,7 +204,9 @@ const Contacto = () => {
           </Form.Group>
 
           <Form.Group controlId="exampleForm.ControlTextarea1">
-            <Form.Label className="textButton">Escribe tu consulta aquí</Form.Label>
+            <Form.Label className="textButton">
+              Escribe tu consulta aquí
+            </Form.Label>
             <Form.Control required as="textarea" rows={4} />
           </Form.Group>
           <Form.Text className="text-muted">
@@ -215,7 +232,16 @@ const Contacto = () => {
             color="#abc526"
             size="1x"
           />
-          4239995 - 4233773
+          381 423-9995
+        </h5>
+        <h5 className="mb-3">
+          <FontAwesomeIcon
+            className="mr-2 "
+            icon={faPhoneAlt}
+            color="#abc526"
+            size="1x"
+          />
+          381 423-3773
         </h5>
         <a
           href="https://wa.me/5493815231792"
@@ -230,7 +256,8 @@ const Contacto = () => {
               color="#abc526"
               size="1x"
             />
-            3815231792 (Service)
+            381 523-1792 <br />
+            (Service)
           </h5>
         </a>
         <a
@@ -246,7 +273,7 @@ const Contacto = () => {
               color="#abc526"
               size="1x"
             />
-            3816812468 (Repuestos)
+            381 681-2468 (Repuestos)
           </h5>
         </a>
         <a
@@ -265,15 +292,20 @@ const Contacto = () => {
             Corrientes 2514 - San Miguel de Tucumán
           </h5>
         </a>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d7121.3296679872765!2d-65.23206769931612!3d-26.81879873867179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94225c59e8cf6725%3A0xd0ba3b86aeabd2d4!2sall%20service%20tucuman!3m2!1d-26.816794299999998!2d-65.2334578!5e0!3m2!1ses!2sar!4v1607548696091!5m2!1ses!2sar"
-          frameborder="0"
-          allowfullscreen=""
-          aria-hidden="false"
-          tabindex="0"
-        ></iframe>
+        <div className="text-center ">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d7121.3296679872765!2d-65.23206769931612!3d-26.81879873867179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94225c59e8cf6725%3A0xd0ba3b86aeabd2d4!2sall%20service%20tucuman!3m2!1d-26.816794299999998!2d-65.2334578!5e0!3m2!1ses!2sar!4v1607548696091!5m2!1ses!2sar"
+            width="270"
+            height="300"
+            frameborder="0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+            className="rounded"
+          ></iframe>
+        </div>
       </div>
-          </div>
+    </div>
   );
 };
 
