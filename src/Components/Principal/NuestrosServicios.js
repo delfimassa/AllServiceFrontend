@@ -197,7 +197,7 @@ const NuestrosServicios = () => {
                   Sin moverte de tu casa un técnico de nuestro Staff te visitara
                   para poder realizar un presupuesto de acuerdo a la medida de
                   tus necesidades. Somos especialistas en dejar tus productos
-                  como nuevos, realizamos trabajos personalizados y artesanal en
+                  como nuevos, realizamos trabajos personalizados y artesanales en
                   cada uno de ellos, utilizando siempre las piezas originales y
                   mano de obra especializada, garantizando el correcto
                   funcionamiento de tus productos.
