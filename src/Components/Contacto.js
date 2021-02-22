@@ -78,10 +78,10 @@ const Contacto = () => {
 
   return (
     <div className="row no-gutters">
-      <div className="col-lg-6 p-5 text-center nosm noxs nomd container p-5">
+      <div className="col-lg-6 p-5 text-left nosm noxs nomd container p-5">
         <h5 className="mb-3 textButton">
           <FontAwesomeIcon
-            className="mr-2 verdetext"
+            className="mr-2 verdetext ml-5"
             icon={faPhoneAlt}
             color="#282828"
             size="1x"
@@ -90,7 +90,7 @@ const Contacto = () => {
         </h5>
         <h5 className="mb-3 textButton">
           <FontAwesomeIcon
-            className="mr-2 verdetext"
+            className="mr-2 verdetext ml-5"
             icon={faPhoneAlt}
             color="#282828"
             size="1x"
@@ -105,7 +105,7 @@ const Contacto = () => {
         >
           <h5 className="mb-3 textButton">
             <FontAwesomeIcon
-              className="mr-2 verdetext"
+              className="mr-2 verdetext ml-5"
               icon={faWhatsapp}
               color="#282828"
               size="1x"
@@ -121,7 +121,7 @@ const Contacto = () => {
         >
           <h5 className="mb-3 textButton">
             <FontAwesomeIcon
-              className="mr-2 verdetext"
+              className="mr-2 verdetext ml-5"
               icon={faWhatsapp}
               color="#282828"
               size="1x"
@@ -137,7 +137,7 @@ const Contacto = () => {
         >
           <h5 className="mb-3 textButton">
             <FontAwesomeIcon
-              className="mr-2 verdetext"
+              className="mr-2 verdetext ml-5"
               icon={faMapMarkerAlt}
               color="#282828"
               size="1x"
@@ -145,7 +145,7 @@ const Contacto = () => {
             Corrientes 2514 - San Miguel de Tucumán
           </h5>
         </a>
-        <div className="text-center ">
+        <div className="text-center">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d7121.3296679872765!2d-65.23206769931612!3d-26.81879873867179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94225c59e8cf6725%3A0xd0ba3b86aeabd2d4!2sall%20service%20tucuman!3m2!1d-26.816794299999998!2d-65.2334578!5e0!3m2!1ses!2sar!4v1607548696091!5m2!1ses!2sar"
             width="450"
@@ -226,7 +226,8 @@ const Contacto = () => {
           </div>
         </Form>
       </div>
-      <div className="col-lg-6 p-5 text-center nolg noxl container p-5">
+      {/* DISPOSICION XS SM Y MD */}
+      <div className="col-lg-6 p-5 nolg noxl container p-5">
         <h5 className="mb-3">
           <FontAwesomeIcon
             className="mr-2 "
@@ -294,11 +295,11 @@ const Contacto = () => {
             Corrientes 2514 - San Miguel de Tucumán
           </h5>
         </a>
-        <div className="text-center ">
+        <div className="text-center">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d7121.3296679872765!2d-65.23206769931612!3d-26.81879873867179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94225c59e8cf6725%3A0xd0ba3b86aeabd2d4!2sall%20service%20tucuman!3m2!1d-26.816794299999998!2d-65.2334578!5e0!3m2!1ses!2sar!4v1607548696091!5m2!1ses!2sar"
             width="270"
-            height="300"
+            height="250"
             frameborder="0"
             allowfullscreen=""
             aria-hidden="false"

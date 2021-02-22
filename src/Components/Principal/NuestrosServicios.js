@@ -50,7 +50,7 @@ const NuestrosServicios = () => {
                   Sin moverte de tu casa un técnico de nuestro Staff te visitara
                   para poder realizar un presupuesto de acuerdo a la medida de
                   tus necesidades. Somos especialistas en dejar tus productos
-                  como nuevos, realizamos trabajos personalizados y artesanal en
+                  como nuevos, realizamos trabajos personalizados y artesanales en
                   cada uno de ellos, utilizando siempre las piezas originales y
                   mano de obra especializada, garantizando el correcto
                   funcionamiento de tus productos.
@@ -97,7 +97,7 @@ const NuestrosServicios = () => {
           <div className="col-sm-12 col-md-6 grisoscurobg p-0 m-0">
             <div className="container pl-5 py-4">
               <h3 className="verdetext letragorda">REPARACIONES</h3>
-              <ul className="m-0 p-0 text-light listamasgrande">
+              <ul className="m-0 pl-3 text-light listamasgrande">
                 <li className="textQS">Cocinas a gas y eléctricas</li>
                 <li className="textQS">Anafes a gas y eléctricos</li>
                 <li className="textQS">Hornos a gas y eléctricos</li>
@@ -120,7 +120,7 @@ const NuestrosServicios = () => {
                   Sin moverte de tu casa un técnico de nuestro Staff te visitara
                   para poder realizar un presupuesto de acuerdo a la medida de
                   tus necesidades. Somos especialistas en dejar tus productos
-                  como nuevos, realizamos trabajos personalizados y artesanal en
+                  como nuevos, realizamos trabajos personalizados y artesanales en
                   cada uno de ellos, utilizando siempre las piezas originales y
                   mano de obra especializada, garantizando el correcto
                   funcionamiento de tus productos.
