@@ -17,7 +17,7 @@ const QuienesSomos = () => {
               alt="quienes somos"
             />
           </div>
-          <div className="col-md-7 col-sm-12 grisclarobg">
+          <div className="col-md-7 col-sm-12 grisoscurobg">
             <div className="text-left mx-5 my-5">
               <h1 className="verdetext text-center letragorda">
                 QUIENES SOMOS

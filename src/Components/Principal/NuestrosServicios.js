@@ -27,14 +27,14 @@ const NuestrosServicios = () => {
           <div className="col-sm-12 col-md-6 grisoscurobg p-5 m-0">
             <div className="container px-5 py-4 text">
               <h2 className="verdetext letragorda">REPARACIONES</h2>
-              <ul className="m-0 p-0 text-light listamasgrande">
+              <ul className="m-0 pl-3 text-light listamasgrande">
                 <li className="textQS">Cocinas a gas y eléctricas</li>
                 <li className="textQS">Anafes a gas y eléctricos</li>
                 <li className="textQS">Hornos a gas y eléctricos</li>
                 <li className="textQS">Calefones a gas</li>
                 <li className="textQS">Termotanques a gas y eléctricos</li>
                 <li className="textQS">Calefactores a gas y eléctricos</li>
-                <li className="textQS">Lavarropas, lavasecarropas</li>
+                <li className="textQS">Lavarropas y Lavasecarropas</li>
                 <li className="textQS"> Lavavajillas</li>
                 <li className="textQS">Secarropas de aire caliente</li>
               </ul>
@@ -167,14 +167,14 @@ const NuestrosServicios = () => {
           <div className="col-sm-12 col-md-6 grisoscurobg px-4 m-0">
             <div className="container text-left py-4">
               <h3 className="verdetext letragorda">REPARACIONES</h3>
-              <ul className="m-0 p-0 text-light">
+              <ul className="m-0 pl-3 text-light">
                 <li className="textQS">Cocinas a gas y eléctricas</li>
                 <li className="textQS">Anafes a gas y eléctricos</li>
                 <li className="textQS">Hornos a gas y eléctricos</li>
                 <li className="textQS">Calefones a gas</li>
                 <li className="textQS">Termotanques a gas y eléctricos</li>
                 <li className="textQS">Calefactores a gas y eléctricos</li>
-                <li className="textQS">Lavarropas, lavasecarropas</li>
+                <li className="textQS">Lavarropas y Lavasecarropas</li>
                 <li className="textQS"> Lavavajillas</li>
                 <li className="textQS">Secarropas de aire caliente</li>
               </ul>
