@@ -13,13 +13,12 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import Alert from "react-bootstrap/Alert";
-import emailjs from "emailjs-com";
+import { emailjs, init } from "emailjs-com";
 import Swal from "sweetalert2";
 
-
-
-
 const Contacto = () => {
+  init("user_nywctwSrox7g34oEeJ7uY");
+
   const [validated, setValidated] = useState(false);
   const [nombreConsultor, setNombreConsultor] = useState("");
   const [telefonoConsultor, setTelefonoConsultor] = useState("");
@@ -28,6 +27,14 @@ const Contacto = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // emailjs.sendForm('allservice', 'template_MeHMf7Af', e.target, "user_nywctwSrox7g34oEeJ7uY")
+      // .then((result) => {
+      //     console.log(result.text);
+      // }, (error) => {
+      //     console.log(error.text);
+      // });
+
     const form = e.currentTarget;
 
     //Validacion de los campos requeridos
@@ -46,8 +53,7 @@ const Contacto = () => {
         emailConsultor: emailConsultor,
       };
       //Enviamos los datos a backend - NO IMPLEMENTADO
-      emailjs
-        .sendForm(
+      emailjs.sendForm(
           "allservice",
           "template_MeHMf7Af",
           e.target,
@@ -174,6 +180,7 @@ const Contacto = () => {
           </Alert>
         ) : null}
         <Form noValidate validated={validated} onSubmit={handleSubmit}>
+        <input type="hidden" name="contact_number" />
           <Form.Group controlId="fullName">
             <Form.Label className="textButton">Apellido y Nombre</Form.Label>
             <Form.Control
@@ -209,7 +216,7 @@ const Contacto = () => {
             <Form.Label className="textButton">
               Escribe tu consulta aquí
             </Form.Label>
-            <Form.Control required as="textarea" rows={4} />
+            <Form.Control required as="textarea" rows={4} name="message" />
           </Form.Group>
           <Form.Text className="text-muted">
             No compartiremos estos datos con nadie

@@ -3,7 +3,7 @@ import React from "react";
 const Historia = () => {
   return (
     <div>
-      <div className=" grisoscurobg  noxs nosm">
+      <div className="grisoscurobg  noxs nosm">
         <h1 className="letragorda verdetext mx-4 pt-5 px-5 text-left">
           HISTORIA
         </h1>
@@ -15,7 +15,7 @@ Es por ello que actualmente somos la segunda generación de aquel sueño que com
         </h6>
       </div>
 
-      <div className="fondonegro mt-4 mb-5 nomd nolg noxl">
+      <div className="grisoscurobg mt-4 mb-5 nomd nolg noxl">
         <h1 className="letragorda verdetext mx-4 pt-5 px-3 text-left text-center">
           HISTORIA
         </h1>

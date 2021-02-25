@@ -44,6 +44,9 @@ function Nombres() {
           <div>
             <h3 className="letraNombre font-weight-bold">SECARROPAS</h3>
           </div>
+          <div>
+            <h3 className="letraNombre font-weight-bold">LAVASECARROPAS</h3>
+          </div>
         </Slider>
       </div>
       <div className="text-center fondo  m-5 d-none d-md-block d-sm-none ">
@@ -53,16 +56,16 @@ function Nombres() {
             <h1 className="letraNombre font-weight-bold">CALEFONES   -   TERMOTANQUES</h1>
           </div>
           <div>
-            <h1 className="letraNombre font-weight-bold">LAVAVAJILLAS   -   LAVARROPAS</h1>
+            <h1 className="letraNombre font-weight-bold">CALEFACTORES   -   LAVAVAJILLAS</h1>
           </div>
           <div>
             <h1 className="letraNombre font-weight-bold">HORNOS   -   ANAFES</h1>
           </div>
           <div>
-            <h1 className="letraNombre font-weight-bold">CALEFACTORES - LAVAVAJILLAS</h1>
+            <h1 className="letraNombre font-weight-bold">SECARROPAS - LAVASECARROPAS</h1>
           </div>
           <div>
-            <h1 className="letraNombre font-weight-bold">SECARROPAS - LAVARROPAS</h1>
+            <h1 className="letraNombre font-weight-bold">COCINAS - LAVARROPAS</h1>
           </div>
         </Slider>
       </div>
